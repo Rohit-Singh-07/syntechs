@@ -37,11 +37,11 @@ const Footer = () => {
               Get in Touch
             </h4>
             <a
-              href="mailto:syntechs@trendians.org"
+              href="mailto:trendians.in@gmail.com"
               className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors flex items-center gap-2 mb-4"
             >
               <Mail size={14} />
-              syntechs@trendians.org
+              trendians.in@gmail.com
             </a>
             <div className="flex gap-4">
               <a href="#" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">

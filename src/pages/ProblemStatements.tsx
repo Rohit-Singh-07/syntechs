@@ -1,35 +1,83 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Brain, Globe, HeartPulse, Banknote, ShieldCheck, ArrowLeft } from "lucide-react";
+import { Brain, Globe, HeartPulse, Banknote, ShieldCheck, ArrowLeft, Cpu, Dna, Bot, Trophy, GraduationCap, Sprout, Lightbulb } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const domains = [
-  {
-    icon: Brain,
-    title: "AI / ML",
-    description: "Build intelligent solutions using machine learning, NLP, computer vision, or generative AI to solve real-world challenges.",
-  },
-  {
-    icon: Globe,
-    title: "Web3",
-    description: "Leverage blockchain, decentralized apps, smart contracts, and tokenomics to create the next wave of internet innovation.",
-  },
-  {
-    icon: HeartPulse,
-    title: "HealthTech",
-    description: "Innovate in healthcare with digital diagnostics, telemedicine, patient data management, and wellness tracking.",
-  },
-  {
-    icon: Banknote,
-    title: "FinTech",
-    description: "Reimagine financial services through payments, lending, insurance tech, or personal finance management tools.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Cybersecurity",
-    description: "Develop solutions for threat detection, secure authentication, privacy protection, and vulnerability assessment.",
-  },
+
+    {
+  icon: Lightbulb,
+  title: "Open Innovation",
+  description: "Design and develop a creative solution to any real-world challenge using technology. The problem, approach, and impact are entirely up to you.",
+},
+
+  // ===== AI / ML =====
+  { icon: Brain, title: "AI / ML", description: "Build a smart career guidance tool that suggests career paths based on user interests and skills." },
+  { icon: Brain, title: "AI / ML", description: "Develop a smart attendance analyzer that identifies patterns in absenteeism." },
+  { icon: Brain, title: "AI / ML", description: "Build an AI-powered language translator for regional languages." },
+  { icon: Brain, title: "AI / ML", description: "Create a personalized workout recommendation system." },
+  { icon: Brain, title: "AI / ML", description: "Develop a system that detects spam or harmful comments in online communities." },
+
+  // ===== Web3 =====
+  { icon: Globe, title: "Web3", description: "Build a blockchain-based academic certificate verification platform." },
+  { icon: Globe, title: "Web3", description: "Develop a decentralized freelance marketplace." },
+  { icon: Globe, title: "Web3", description: "Build a Web3-based event ticketing system to prevent fraud." },
+  { icon: Globe, title: "Web3", description: "Create a community reward token system for college activities." },
+
+  // ===== HealthTech =====
+  { icon: HeartPulse, title: "HealthTech", description: "Build a smart medicine reminder app for chronic patients." },
+  { icon: HeartPulse, title: "HealthTech", description: "Create a basic telehealth booking system for rural clinics." },
+  { icon: HeartPulse, title: "HealthTech", description: "Develop a mental wellness check-in app with mood tracking." },
+  { icon: HeartPulse, title: "HealthTech", description: "Create a blood donor availability and alert system." },
+
+  // ===== FinTech =====
+  { icon: Banknote, title: "FinTech", description: "Build a smart expense categorization app for students." },
+  { icon: Banknote, title: "FinTech", description: "Create a peer-to-peer lending demo platform." },
+  { icon: Banknote, title: "FinTech", description: "Develop a subscription tracking dashboard." },
+  { icon: Banknote, title: "FinTech", description: "Create a financial literacy learning app for teenagers." },
+
+  // ===== Cybersecurity =====
+  { icon: ShieldCheck, title: "Cybersecurity", description: "Build a phishing detection browser extension." },
+  { icon: ShieldCheck, title: "Cybersecurity", description: "Create a password health monitoring dashboard." },
+  { icon: ShieldCheck, title: "Cybersecurity", description: "Develop a secure document sharing platform with expiry access." },
+  { icon: ShieldCheck, title: "Cybersecurity", description: "Build a simple vulnerability scanner for websites." },
+  { icon: ShieldCheck, title: "Cybersecurity", description: "Create a data privacy awareness training simulator." },
+
+  // ===== IoT =====
+  { icon: Cpu, title: "IoT", description: "Build a smart hostel energy monitoring system." },
+  { icon: Cpu, title: "IoT", description: "Create a connected water tank level monitoring system." },
+  { icon: Cpu, title: "IoT", description: "Develop a smart waste segregation monitoring solution." },
+  { icon: Cpu, title: "IoT", description: "Build a classroom environment monitoring dashboard." },
+
+  // ===== Biotech =====
+  { icon: Dna, title: "Biotech", description: "Build a disease risk prediction tool based on lifestyle inputs." },
+  { icon: Dna, title: "Biotech", description: "Create a health record simplifier for patients." },
+
+  // ===== Autonomous Systems =====
+  { icon: Bot, title: "Autonomous Systems", description: "Build a campus delivery robot prototype simulation." },
+  { icon: Bot, title: "Autonomous Systems", description: "Create an autonomous parking management system." },
+  { icon: Bot, title: "Autonomous Systems", description: "Develop a smart traffic signal that adapts to congestion." },
+  { icon: Bot, title: "Autonomous Systems", description: "Build an elderly assistance reminder robot concept." },
+
+  // ===== SportsTech =====
+  { icon: Trophy, title: "SportsTech", description: "Build a player performance analytics dashboard." },
+  { icon: Trophy, title: "SportsTech", description: "Create a tournament management platform for colleges." },
+  { icon: Trophy, title: "SportsTech", description: "Develop a real-time score broadcasting app." },
+  { icon: Trophy, title: "SportsTech", description: "Build a sports injury risk monitoring tool." },
+  { icon: Trophy, title: "SportsTech", description: "Create a fan engagement and reward app." },
+
+  // ===== EdTech =====
+  { icon: GraduationCap, title: "EdTech", description: "Develop a gamified learning quiz system." },
+  { icon: GraduationCap, title: "EdTech", description: "Build a student project collaboration workspace." },
+  { icon: GraduationCap, title: "EdTech", description: "Create a campus opportunity discovery platform." },
+
+  // ===== AgriTech =====
+  { icon: Sprout, title: "AgriTech", description: "Build a crop disease detection app using images." },
+  { icon: Sprout, title: "AgriTech", description: "Create a farmer-to-consumer marketplace platform." },
+  { icon: Sprout, title: "AgriTech", description: "Develop a smart irrigation advisory system." },
+  { icon: Sprout, title: "AgriTech", description: "Build a farm expense tracking and profit calculator." },
+
 ];
 
 const ProblemStatements = () => {

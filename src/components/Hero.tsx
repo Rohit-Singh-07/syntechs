@@ -7,7 +7,6 @@ const Hero = () => {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24 pb-16 overflow-hidden"
     >
-      {/* Background subtle grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border))_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-40" />
 
       <motion.div
@@ -40,7 +39,6 @@ const Hero = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.4 }}
         >
-          <Sparkles size={16} />
           50L+ Prize Pool
         </motion.div>
 
@@ -50,18 +48,19 @@ const Hero = () => {
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#"
+            href="https://tixin.in/event/b700a5c8-f81d-42c5-ab76-2254f79d106f"
+            target="_blank"
             className="bg-primary text-primary-foreground px-8 py-3.5 rounded-full text-sm font-bold tracking-wide hover:opacity-90 transition-opacity"
           >
-            Register as LPU Student
-            <span className="block text-xs font-normal opacity-70 mt-0.5">Online + Offline</span>
+            Register (Open for All)
+            <span className="block text-xs font-normal opacity-70 mt-0.5">Online Only</span>
           </a>
           <a
             href="#"
             className="border-2 border-foreground text-foreground px-8 py-3.5 rounded-full text-sm font-bold tracking-wide hover:bg-foreground hover:text-background transition-colors"
           >
-            Register (Open for All)
-            <span className="block text-xs font-normal opacity-70 mt-0.5">Online Only</span>
+            Register as LPU Student
+            <span className="block text-xs font-normal opacity-70 mt-0.5">Online + Offline</span>
           </a>
         </div>
       </motion.div>
