@@ -5,7 +5,7 @@ const steps = [
   {
     icon: Users,
     title: "Form Your Team",
-    description: "Gather 2–4 members and register. Open to students from all colleges nationwide.",
+    description: "Gather 1–4 members and register. Open to students from all colleges nationwide.",
   },
   {
     icon: Lightbulb,
