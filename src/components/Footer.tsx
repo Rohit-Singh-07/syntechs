@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Twitter, Linkedin, Mail } from "lucide-react";
+import { Instagram, Twitter, Linkedin, Mail, X } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -65,11 +65,11 @@ const Footer = () => {
             </a>
 
             <div className="flex gap-4 pt-2">
-              <a href="#" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+              <a href="https://www.instagram.com/trendiansofficial?igsh=MTc4ZGg1NmZ6b28zOA==" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
-                <Twitter size={20} />
+              <a href="https://x.com/trendians_in" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+                <X size={20} />
               </a>
               <a href="#" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
                 <Linkedin size={20} />
