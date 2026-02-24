@@ -6,6 +6,7 @@ import KreoProducts from "@/components/KreoProducts";
 import Timeline from "@/components/Timeline";
 import Sponsors from "@/components/Sponsors";
 import Footer from "@/components/Footer";
+import AboutHackathon from "@/components/AboutHackathon";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Hero />
       <MarqueeStrip />
       <Highlights />
+      <AboutHackathon/>``
       <KreoProducts />
       <Timeline />
       <Sponsors />

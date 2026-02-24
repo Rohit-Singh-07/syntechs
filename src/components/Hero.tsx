@@ -56,7 +56,8 @@ const Hero = () => {
             <span className="block text-xs font-normal opacity-70 mt-0.5">Online Only</span>
           </a>
           <a
-            href="#"
+            href="https://www.tixin.in/event/7d7bf81c-c4ec-43c5-bdd8-cd0aa977e9e3"
+            target="_blank"
             className="border-2 border-foreground text-foreground px-8 py-3.5 rounded-full text-sm font-bold tracking-wide hover:bg-foreground hover:text-background transition-colors"
           >
             Register as LPU Student

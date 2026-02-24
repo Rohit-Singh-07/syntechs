@@ -5,6 +5,7 @@ const sponsors = [
   { name: "CodeChef", role: "Platform Partner" },
   { name: "Kreo", role: "Powered By" },
   { name: "Tixin", role: "Ticketing Partner" },
+  { name: "Serri.ai", role: "Keynote Partner" },
 ];
 
 const Sponsors = () => {
@@ -26,7 +27,7 @@ const Sponsors = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {sponsors.map((sponsor, i) => (
             <motion.div
               key={sponsor.name}
