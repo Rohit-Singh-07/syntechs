@@ -75,7 +75,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-primary-foreground/50 hover:text-primary-foreground transition-colors"
                 >
-                  <X size={20} />
+                  <img src="https://freepnglogo.com/images/all_img/1691832708new-twitter-x-logo-white.png" alt="" width={20} className="opacity-60 hover:opacity-100"/>
                 </a>
                 <a
                   href="#"
