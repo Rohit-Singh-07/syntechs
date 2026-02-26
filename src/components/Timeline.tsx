@@ -4,7 +4,7 @@ const days = [
   {
     day: "Day 1",
     date: "12 March",
-    events: ["Problem Statement Submission", "CodeChef Contest"],
+    events: ["Master Session","Problem Statement Submission", "CodeChef Contest"],
   },
   {
     day: "Day 2",
