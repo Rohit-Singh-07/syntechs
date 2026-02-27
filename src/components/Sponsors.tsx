@@ -6,6 +6,7 @@ const sponsors = [
   { name: "Kreo", role: "Powered By" },
   { name: "Tixin", role: "Ticketing Partner" },
   { name: "Serri.ai", role: "Keynote Partner" },
+   { name: "LazyEats", role: "Refreshment Partner" },
 ];
 
 const Sponsors = () => {

@@ -13,15 +13,16 @@ const StartupSession = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="text-sm font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">
-            Expert Session
+            Expert Sessions
           </p>
           <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
-            Product → Startup
+            Level Up Your Game
           </h2>
         </motion.div>
 
+        {/* Session 1 */}
         <motion.div
-          className="bg-background rounded-3xl p-8 md:p-12 border border-border"
+          className="bg-background rounded-3xl p-8 md:p-12 border border-border mb-10"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -56,6 +57,48 @@ const StartupSession = () => {
             <div className="flex items-center gap-2">
               <Users size={16} className="text-accent" />
               <span>Shubham Raj, Co-founder of Serri.ai</span>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Session 2 */}
+        <motion.div
+          className="bg-background rounded-3xl p-8 md:p-12 border border-border"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.25 }}
+        >
+          <div className="flex items-center gap-4 mb-6">
+            <div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
+              <Presentation className="text-accent" size={26} />
+            </div>
+            <h3 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
+              How to Win a Hackathon
+            </h3>
+          </div>
+
+          <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-8">
+            Want to stand out from hundreds of teams? In this power-packed
+            session, Md Imran will break down proven strategies to win
+            hackathons — from smart problem selection and rapid execution to
+            impactful pitching and demo presentation. Learn what judges really
+            look for and how to maximize your team's performance under time
+            pressure.
+          </p>
+
+          <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <Calendar size={16} className="text-accent" />
+              <span>Day 1</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <MapPin size={16} className="text-accent" />
+              <span>SDMA</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Users size={16} className="text-accent" />
+              <span>Md Imran, Co-founder of HackShastra</span>
             </div>
           </div>
         </motion.div>
