@@ -8,7 +8,7 @@ const CountdownTimer = () => {
     const target = new Date();
 
     // 12:00 PM IST = 06:30 UTC
-    target.setUTCHours(8, 30, 0, 0);
+    target.setUTCHours(20, 30, 0, 0);
 
     // If already past today’s 12 PM IST → move to tomorrow
     if (now >= target) {
