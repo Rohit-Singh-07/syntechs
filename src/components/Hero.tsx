@@ -8,7 +8,7 @@ const CountdownTimer = () => {
     const target = new Date();
 
     // 12:00 PM IST = 06:30 UTC
-    target.setUTCHours(6, 30, 0, 0);
+    target.setUTCHours(8, 30, 0, 0);
 
     // If already past today’s 12 PM IST → move to tomorrow
     if (now >= target) {
@@ -174,7 +174,7 @@ const Hero = () => {
 
         {/* Offer card — dark bg so it's always visible */}
         <motion.div
-          className="mt-5 flex sm:flex-row flex-col items-center sm:gap-4 px-5 py-3 rounded-xl animate-bounce"
+          className="mt-5 flex sm:flex-row flex-col items-center sm:gap-4 px-5 py-3 rounded-xl "
           style={{
             background: "rgba(15, 8, 0, 0.75)",
             border: "1px solid rgba(255,160,0,0.28)",
@@ -198,7 +198,7 @@ const Hero = () => {
               ₹249
             </span>
             <span
-              className="sm:text-3xl text-xl font-black leading-none animate-bounce"
+              className="sm:text-3xl text-xl font-black leading-none "
               style={{
                 color: "#ffd166",
                 textShadow: "0 0 14px rgba(255,200,0,0.4)",
