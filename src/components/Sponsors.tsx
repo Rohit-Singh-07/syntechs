@@ -5,8 +5,10 @@ const sponsors = [
   { name: "CodeChef", role: "Platform Partner" },
   { name: "Kreo", role: "Powered By" },
   { name: "Tixin", role: "Ticketing Partner" },
-  { name: "Serri.ai", role: "Keynote Partner" },
+  { name: "HackShastra", role: "Community Partner" },
+  // { name: "Serri.ai", role: "Keynote Partner" },
   { name: "LazyEats", role: "Refreshment Partner" },
+
 ];
 
 const Sponsors = () => {
