@@ -61,7 +61,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.tixin.in/event/7d7bf81c-c4ec-43c5-bdd8-cd0aa977e9e3"
+            href="https://www.tixin.in/event/1bbc6651-105c-4007-8f9a-cf58bc26e14f"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-foreground text-foreground px-8 py-3.5 rounded-full text-sm font-bold tracking-wide hover:bg-foreground hover:text-background transition-colors"
