@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Twitter, Linkedin, Mail, X } from "lucide-react";
+import { Instagram, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -26,8 +26,9 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Links */}
           <div className="md:flex gap-12 md:gap-40">
+            {/* Quick Links */}
             <div className="space-y-4">
               <h4 className="font-heading text-sm font-bold tracking-wider uppercase text-primary-foreground/50">
                 Quick Links
@@ -48,6 +49,35 @@ const Footer = () => {
               </div>
             </div>
 
+            {/* Legal */}
+            <div className="space-y-4">
+              <h4 className="font-heading text-sm font-bold tracking-wider uppercase text-primary-foreground/50">
+                Legal
+              </h4>
+              <div className="space-y-2">
+                <Link
+                  to="/refund-policy"
+                  className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                >
+                  Refund Policy
+                </Link>
+
+                <Link
+                  to="/privacy-policy"
+                  className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+
+                <Link
+                  to="/terms"
+                  className="block text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                >
+                  Terms & Conditions
+                </Link>
+              </div>
+            </div>
+
             {/* Contact */}
             <div className="space-y-4">
               <h4 className="font-heading text-sm font-bold tracking-wider uppercase text-primary-foreground/50">
@@ -64,22 +94,32 @@ const Footer = () => {
 
               <div className="flex gap-4 pt-2">
                 <a
-                  href="https://www.instagram.com/trendiansofficial?igsh=MTc4ZGg1NmZ6b28zOA=="
+                  href="https://www.instagram.com/trendiansofficial"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-primary-foreground/50 hover:text-primary-foreground transition-colors"
                 >
                   <Instagram size={20} />
                 </a>
+
                 <a
                   href="https://x.com/trendians_in"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-primary-foreground/50 hover:text-primary-foreground transition-colors"
                 >
-                  <img src="https://freepnglogo.com/images/all_img/1691832708new-twitter-x-logo-white.png" alt="" width={20} className="opacity-60 hover:opacity-100"/>
+                  <img
+                    src="https://freepnglogo.com/images/all_img/1691832708new-twitter-x-logo-white.png"
+                    alt="X"
+                    width={20}
+                    className="opacity-60 hover:opacity-100"
+                  />
                 </a>
+
                 <a
                   href="#"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-primary-foreground/50 hover:text-primary-foreground transition-colors"
                 >
                   <Linkedin size={20} />
@@ -89,7 +129,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
+        {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center">
           <p className="text-sm font-semibold tracking-wide text-primary-foreground">
             © 2026 SYNTECHS — An Initiative by TRENDIANS
