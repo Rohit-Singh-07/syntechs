@@ -30,7 +30,7 @@ const Hero = () => {
         </p>
 
         <p className="mt-2 text-base text-muted-foreground font-medium">
-          12 – 14 March 2026
+          26 – 28 March 2026
         </p>
 
         <motion.div

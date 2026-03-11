@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 const days = [
   {
     day: "Day 1",
-    date: "12 March",
-    events: ["Master Session","Problem Statement Submission", "CodeChef Contest"],
+    date: "26 March",
+    events: ["Master Session","Problem Statement Submission", "GitHub Repo & Idea Submission"],
   },
   {
     day: "Day 2",
-    date: "13 March",
+    date: "27 March",
     events: [
-      "GitHub Repo & Idea Submission",
+      "CodeChef Contest",
       "24-Hour Final Round Begins",
-      "Online Presentations",
+      "Presentations",
     ],
   },
   {
     day: "Day 3",
-    date: "14 March",
+    date: "28 March",
     events: ["Final Presentation Round", "Result Announcement"],
   },
 ];
