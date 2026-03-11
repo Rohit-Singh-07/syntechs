@@ -29,9 +29,9 @@ const Hero = () => {
           National Level Hackathon
         </p>
 
-        <p className="mt-2 text-base text-muted-foreground font-medium">
-          26 – 28 March 2026
-        </p>
+        {/* <p className="mt-2 text-base text-muted-foreground font-medium">
+          2 – 4 April 2026
+        </p> */}
 
         <motion.div
           className="mt-6 inline-flex items-center gap-2 bg-highlight text-highlight-foreground px-5 py-2 rounded-full text-sm font-bold"

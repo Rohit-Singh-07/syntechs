@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 const days = [
   {
     day: "Day 1",
-    date: "26 March",
+    date: "2 April",
     events: ["Master Session","Problem Statement Submission", "GitHub Repo & Idea Submission"],
   },
   {
     day: "Day 2",
-    date: "27 March",
+    date: "3 April",
     events: [
       "CodeChef Contest",
       "24-Hour Final Round Begins",
@@ -17,7 +17,7 @@ const days = [
   },
   {
     day: "Day 3",
-    date: "28 March",
+    date: "4 April",
     events: ["Final Presentation Round", "Result Announcement"],
   },
 ];
@@ -55,9 +55,9 @@ const Timeline = () => {
                 <span className="font-heading text-3xl font-bold text-foreground">
                   {day.day}
                 </span>
-                <span className="text-sm text-muted-foreground font-medium">
+                {/* <span className="text-sm text-muted-foreground font-medium">
                   {day.date}
-                </span>
+                </span> */}
               </div>
 
               <div className="space-y-4">
