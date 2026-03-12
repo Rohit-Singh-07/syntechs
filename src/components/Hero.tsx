@@ -49,7 +49,8 @@ const Hero = () => {
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://tixin.in/event/192c525e-117f-447b-90d5-0c1b7b88ce98"
+            // href="https://tixin.in/event/192c525e-117f-447b-90d5-0c1b7b88ce98" 
+            href="https://unstop.com/p/syntechs-2026-tixin-1657550?utm_medium=Share&utm_source=jduzisrb81320&utm_campaign=Online_coding_challenge" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground px-8 py-3.5 rounded-full text-sm font-bold tracking-wide hover:opacity-90 transition-opacity"

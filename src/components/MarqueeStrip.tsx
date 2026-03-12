@@ -1,5 +1,5 @@
 const MarqueeStrip = () => {
-  const text1 = "SYNTECHS 2026 ◆ National Level Hackathon ◆ 50L+ Prize Pool ◆  ";
+  const text1 = "SYNTECHS 2026 ◆ National Level Hackathon ◆ 50L+ Prize Pool ◆ ";
   const text2 = "Register Now ◆ Win Big ◆ Build. Innovate. Disrupt. ◆ Powered by Kreo ◆ ";
 
   return (
